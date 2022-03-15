@@ -2,4 +2,4 @@
 SELECT city,country
 FROM city
 INNER JOIN country
-ON city. = country. ;
+ON city.country_id = country.countr_id;
